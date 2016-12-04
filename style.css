@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:  monospace;
+}
+
+.class {
+	padding: 10px;
+}
+
+.class1 {
+	background: khaki;
+}
+.class2 {
+	background: lightblue;
+}
+
+.week {
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.block {
+	display: block;
+	padding: 5px;
+}
+
+.lesson {
+	color: darkred;
+	display: block;
+}
+ul > li {
+	background: #f4c03e; 
+	border-bottom: 1px solid black;	
+	margin-bottom: 5px;	
+	padding: 10px;
+}
+ul, ol {
+	list-style-type: none;
+}
+ol > li {
+	padding-left: 20px;
+}
+
+.intro {
+	background: rgba(255, 51, 0, .5);
+}
+.main {
+		background: rgba(255, 255, 0, .5);
+}
+.final {
+		background: rgba(0, 204, 0, .5);	
+}		
+		
